@@ -1,0 +1,35 @@
+ul.blog-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    list-style: none;
+    padding: 0;
+}
+
+
+ul.blog-list li.article-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul.blog-list li.article-card {
+    margin: 0 20px 20px 0;
+}
+
+
+ul.blog-list .article-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #007bff;
+}
+
+ul.blog-list .article-author {
+    color: #777;
+}
